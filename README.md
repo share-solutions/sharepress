@@ -1,3 +1,11 @@
+TODO:
+* [ ] Script para composer post-install
+    * [ ] Criar directoria views_cache na directoria uploads
+    * [ ] Copiar package.json
+    * [ ] Copiar estrutura default da App da Framework
+
+
+
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
