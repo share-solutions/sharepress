@@ -17,7 +17,6 @@
             "src/helpers.php"
         ]
     },
-    "minimum-stability": "stable",
     "require": {
         "illuminate/container": "5.2.0",
         "illuminate/contracts": "5.2.0",
