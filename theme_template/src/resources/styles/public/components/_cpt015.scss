@@ -1,0 +1,51 @@
+.cpt015 {
+  width: 100%;
+  background-color: $green-blue;
+  color: $white;
+  padding: 25px 30px;
+
+  &__title {
+    text-align: center;
+    color: $white;
+  }
+
+  &__subtitle {
+    font-family: Karmilla;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.020em;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+
+    &-text {
+      list-style-type: none;
+      font-family: Playfair;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: left;
+      letter-spacing: 0.020em;
+    }
+
+    &-value {
+      list-style-type: none;
+      font-family: Karmilla;
+      font-weight: bold;
+      font-size: 36px;
+      text-align: right;
+    }
+
+    & ul {
+      padding: 0;
+      width: 100%;
+    }
+
+    & li {
+      padding: 5px 0;
+      line-height: 50px;
+      border-bottom: 1px solid $white;
+    }
+  }
+}

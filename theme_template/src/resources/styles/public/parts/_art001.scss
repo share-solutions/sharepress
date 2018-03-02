@@ -1,0 +1,67 @@
+.art001 {
+  padding-right: 14px;
+  margin-bottom: 25px;
+
+  @media screen and (min-width: $break-ipad) {
+    margin-bottom: 80px;
+  }
+
+  &-header {
+    margin-bottom: $vertical-margin;
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .art001-body__text-inner {
+    .art001-body {
+      .art001-body__headline {
+        padding-bottom: 20px;
+      }
+
+      .art001-body__writers {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: $break-mobile) {
+          flex-direction: row;
+        }
+      }
+
+      .art001-body__text {
+        margin-bottom: 40px;
+      }
+
+      &__tags {
+        font-family: Karmilla;
+        font-weight: bold;
+        font-style: 16px;
+        border-top: $border-light-grey;
+        padding-top: 25px;
+
+        & > * {
+          margin: 0 15px 0 0;
+        }
+
+        p {
+          color: $black;
+          display: inline-block;
+        }
+
+        a {
+          color: $dark-grey;
+
+          :hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

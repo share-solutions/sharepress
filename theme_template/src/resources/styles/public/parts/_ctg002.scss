@@ -1,0 +1,22 @@
+.ctg002 {
+  margin: $vertical-margin 0 0 0;
+  padding-bottom: 40px;
+
+  @media (min-width: $break-mobile) {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  &__articles {
+    border-right: none;
+
+    @media (min-width: $break-ipad) {
+    }
+  }
+
+  &__ads {
+    @media (min-width: $break-mobile) {
+    }
+  }
+}

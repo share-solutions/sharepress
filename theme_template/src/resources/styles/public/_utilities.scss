@@ -1,0 +1,214 @@
+h1,
+.h1 {
+  font-size: 2rem;
+}
+// Margins
+.margin-bottom {
+  margin-bottom: $vertical-margin;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+// Sections headline
+.museo {
+  font-family: 'Museo';
+  font-weight: normal;
+  color: $black;
+
+  &--white {
+    color: $white;
+
+    a {
+      color: $white;
+
+      &:hover,
+      click {
+        color: $white;
+      }
+    }
+  }
+
+  &--e1 {
+    font-size: 30px;
+    line-height: 34px;
+
+    @media (min-width: $break-mobile) {
+      font-size: 36px;
+      line-height: 40px;
+    }
+  }
+}
+
+// Title
+.karla {
+  font-family: 'Karmilla';
+  font-weight: bold;
+  color: $black;
+
+  a {
+    color: $black;
+
+    &:hover,
+    click {
+      color: $black;
+    }
+  }
+
+  &--white {
+    color: $white;
+
+    a {
+      color: $white;
+
+      &:hover,
+      click {
+        color: $white;
+      }
+    }
+  }
+  // Article title
+  &--e2 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+
+    @media (min-width: $break-mobile) {
+      font-size: 40px;
+      line-height: 44px;
+    }
+
+    @media (min-width: $break-ipad) {
+      font-size: 48px;
+      line-height: 52px;
+    }
+  }
+  // Banner headline
+  &--e3 {
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -0.025em;
+
+    @media (min-width: $break-mobile) {
+      font-size: 36px;
+      line-height: 40px;
+    }
+
+    @media (min-width: $break-ipad) {
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }
+  // Headline 1
+  &--e4 {
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: -0.025em;
+
+    @media (min-width: $break-mobile) {
+      font-size: 36px;
+      line-height: 40px;
+    }
+  }
+  // Headline 2
+  &--e5 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+  }
+  // Headline 3
+  &--e6 {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+  }
+  // Tags
+  &--e7 {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+  // Menu
+  &--e8 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+
+// Text
+.playfair {
+  font-family: 'Playfair';
+  font-weight: normal;
+  color: $black;
+
+  a {
+    color: $black;
+
+    &:hover,
+    click {
+      color: $black;
+      text-transform: underline;
+    }
+  }
+
+  &--white {
+    color: $white;
+
+    a {
+      color: $white;
+
+      &:hover,
+      click {
+        color: $white;
+      }
+    }
+  }
+  // Display
+  &--e9 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+  }
+  // Paragraph text
+  &--e10 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+  // Footer and Subtitles
+  &--e11 {
+    font-size: 16px;
+    line-height: 38px;
+  }
+}
+
+// Asterisk icon
+
+.icon-asterisk {
+  &:before {
+    content: $icon-asterisk;
+  }
+}
+
+
+// Border separator
+
+.border-grey-right {
+  border-right: 0;
+
+  @media screen and (min-width: $break-ipad) {
+    border-right: 1px solid $light-grey;
+  }
+}
+
+.border-grey-bottom {
+  border-bottom: 1px solid $light-grey;
+  padding-bottom: 39px;
+}
+
+// Gutter separator
+
+
+

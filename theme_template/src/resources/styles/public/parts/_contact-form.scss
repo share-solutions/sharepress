@@ -1,0 +1,47 @@
+.wpcf7,
+.contact-form {
+  form {
+    text-align: center;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    font-family: Playfair;
+    font-style: italic;
+    color: $grey;
+    border: 0;
+    border-bottom: $border-light-grey;
+
+    &-message {
+      display: flex;
+      align-items: flex-start;
+      border: 0;
+      background-color: #f0f0f0;
+      height: 180px;
+      padding: 18px 10px 0;
+    }
+  }
+
+  &__submit {
+    width: 210px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &-col {
+      text-align: center;
+      flex-direction: row;
+      margin-bottom: 20px;
+
+      @media screen and (min-width: $break-mobile) {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

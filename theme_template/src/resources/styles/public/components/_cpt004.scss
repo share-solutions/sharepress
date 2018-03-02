@@ -1,0 +1,92 @@
+.cpt004 {
+  display: flex;
+  flex-direction: row;
+  font-family: Museo;
+  font-weight: bold;
+  font-size: 30px;
+  color: $black;
+  width: 100%;
+  text-align: center;
+
+  @media screen and (min-width: $break-mobile) {
+    font-size: 36px;
+  }
+
+  &--center {
+    justify-content: center;
+  }
+
+  &--left {
+    justify-content: center;
+
+    @media screen and (min-width: $break-mobile) {
+      justify-content: left;
+    }
+
+    &-bar {
+      justify-content: center;
+    }
+  }
+
+  &__icon {
+    font-size: 27px;
+    padding-top: 10px;
+    margin-right: 12px;
+  }
+
+  &__bar {
+    height: 15px;
+    width: 100%;
+    margin: 19px 0 0 20px;
+    background-color: $black;
+
+    &--nomargin {
+      margin: 0;
+    }
+  }
+
+  &-saude {
+    color: $light-green;
+  }
+
+  &-alimentacao {
+    color: $green-blue;
+  }
+
+  &-corpo-mente {
+    color: $light-blue;
+  }
+
+  &-beleza {
+    color: $purple;
+  }
+
+  &-familia {
+    color: $orange;
+  }
+
+  &-paciente {
+    color: $yellow;
+  }
+
+  &-sponsor {
+    color: $pink;
+  }
+
+  &-especialista {
+    color: $black;
+  }
+
+  h1 {
+    display: inline;
+    margin: 0;
+
+    @media screen and (min-width: $break-mobile) {
+      display: inline-flex;
+    }
+  }
+
+  span {
+    display: inline;
+  }
+}

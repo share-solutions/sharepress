@@ -11,10 +11,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "share\\": "src/"
+            "share\\": "src/",
         },
         "files": [
-            "src/helpers.php"
+            "src/helpers.php",
         ]
     },
     "require": {
@@ -29,6 +29,9 @@
         "nesbot/carbon": "^1.22",
         "symfony/dom-crawler": "^4.0",
         "symfony/css-selector": "^4.0",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^2.4",
+        "league/flysystem": "^1.0",
+        "symfony/console": "^4.0",
+        "symfony/filesystem": "^4.0"
     }
 }

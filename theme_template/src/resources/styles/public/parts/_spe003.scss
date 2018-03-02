@@ -1,0 +1,30 @@
+.spe003 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  &__articles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: $break-mobile) {
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    &__header {
+      margin-bottom: 15px;
+
+      @media screen and (min-width: $break-mobile) {
+        margin-bottom: 40px;
+      }
+    }
+
+    > .cpt001 {
+      max-width: 33.33%;
+      align-self: flex-start;
+    }
+  }
+}

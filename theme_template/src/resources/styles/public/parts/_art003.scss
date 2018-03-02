@@ -1,0 +1,15 @@
+.art003 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: $vertical-margin;
+  border-top: 1px solid $light-grey;
+  margin-bottom: $vertical-margin;
+
+  .art003__header {
+    text-align: center;
+  }
+
+  .art003-inner {
+  }
+}

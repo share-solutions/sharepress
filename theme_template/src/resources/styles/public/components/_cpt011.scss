@@ -1,0 +1,24 @@
+.cpt011 {
+  position: relative;
+  order: 1;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $break-ipad) {
+    order: 0;
+    margin-bottom: 80px;
+  }
+
+  .cpt011__prev {
+    border-top: 1px solid $light-grey;
+    padding: 27px 0 30px 18px;
+
+    @media screen and (min-width: $break-ipad) {
+      padding: 27px 0 91px 18px;
+    }
+  }
+
+  .cpt011__next {
+    border-top: 1px solid $light-grey;
+    padding: 27px 0 0 18px;
+  }
+}

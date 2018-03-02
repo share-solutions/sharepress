@@ -1,0 +1,28 @@
+.hp002 {
+  margin: $vertical-margin-mobile -15px 0;
+
+  @media screen and (min-width: $break-mobile) {
+    margin: $vertical-margin -15px 0;
+  }
+
+  padding-bottom: 40px;
+
+  @media (min-width: $break-mobile) {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  &__articles {
+    border-right: none;
+
+    @media (min-width: $break-ipad) {
+      border-right: 1px solid #e1e1e1;
+    }
+  }
+
+  &__ads {
+    @media (min-width: $break-mobile) {
+    }
+  }
+}

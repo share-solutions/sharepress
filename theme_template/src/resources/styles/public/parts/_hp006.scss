@@ -1,0 +1,20 @@
+.hp006 {
+  margin: 0 -15px;
+
+  &-articles {
+    padding: 0 15px;
+
+    @media (min-width: 1200px) {
+      padding: 0 110px;
+    }
+
+    &__header {
+      margin-bottom: 15px;
+
+      @media screen and (min-width: $break-mobile) {
+        text-align: left;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

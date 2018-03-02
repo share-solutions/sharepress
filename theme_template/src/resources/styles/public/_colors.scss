@@ -1,0 +1,20 @@
+// Basic colors - text and some body elements
+$white: #fff;
+$black: #252525;
+$light-grey: #e1e1e1;
+$grey: #b7b7b7;
+$dark-grey: #7d7d7d;
+
+// Section Specific Colors
+$light-green: #82ca9c; // Saúde
+$green-blue: #1ec7bf; // Alimentacao e Dietas
+$light-blue: #6dcff6; // Corpo & Mente
+$purple: #c449bd; // Beleza Saudável
+$orange: #fba75d; // Família
+$yellow: #ffce4a; // Paciente Inteligente
+$pink: #be0052; // Sponsors
+$sand: #efeeed; // Sponsored article background
+
+.article-sponsored-background {
+  background-color: $sand;
+}

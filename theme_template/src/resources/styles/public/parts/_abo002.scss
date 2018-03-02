@@ -1,0 +1,15 @@
+.abo002 {
+  margin: auto;
+  border-bottom: $border-light-grey;
+
+  &__social {
+    display: flex;
+    flex-direction: column;
+
+    &-buttons {
+      & > a:not(:last-child) {
+        padding-right: 20px;
+      }
+    }
+  }
+}

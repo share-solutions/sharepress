@@ -1,0 +1,27 @@
+.art002 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and (min-width: $break-ipad) {
+  }
+
+  &-inner {
+    order: 2;
+    padding: 40px 0;
+
+    @media screen and (min-width: $break-ipad) {
+      order: 0;
+      padding-top: 0;
+    }
+  }
+
+  .art002__header {
+    text-align: center;
+
+    @media screen and (min-width: $break-ipad) {
+      text-align: right;
+    }
+  }
+}

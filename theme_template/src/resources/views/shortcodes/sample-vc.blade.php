@@ -1,0 +1,1 @@
+Sample VC Shortcode, tag: {{$tag}}

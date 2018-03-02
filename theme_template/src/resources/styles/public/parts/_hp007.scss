@@ -1,0 +1,34 @@
+.hp007 {
+  border-top: 1px solid $light-grey;
+
+  &__articles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: $break-ipad) {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    &__header {
+      padding: 0 15px;
+      margin-bottom: 15px;
+
+      @media screen and (min-width: $break-mobile) {
+        margin-bottom: 40px;
+      }
+    }
+
+    > .cpt001 {
+      align-self: center;
+
+      @media screen and (min-width: $break-ipad) {
+        max-width: 33.33%;
+        align-self: flex-start;
+      }
+    }
+  }
+}

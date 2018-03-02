@@ -1,0 +1,21 @@
+{
+	"input": {
+		"dropins": "src/resources/dropins",
+		"styles": "src/resources/styles",
+		"scripts": "src/resources/scripts",
+		"sprites": "src/resources/sprites",
+		"images": "src/resources/images",
+		"fonts": "src/resources/fonts"
+	},
+
+	"output": {
+		"build": "build",
+		"dropins": "build/dropins",
+		"styles": "build/styles",
+		"scripts": "build/scripts",
+		"sprites": "build/images",
+		"images": "build/images",
+		"cssimages": "../images",
+		"fonts": "build/fonts"
+	}
+}

@@ -7,3 +7,7 @@
  * 				- generate Samples (optional)
  *
  */
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$installationManager = new \share\SharePress\Install\Manager();

@@ -1,0 +1,15 @@
+.ctg004 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: $vertical-margin;
+  border-top: 1px solid $light-grey;
+  margin-bottom: $vertical-margin;
+
+  .ctg004__header {
+    text-align: center;
+  }
+
+  .ctg004-inner {
+  }
+}

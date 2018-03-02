@@ -1,0 +1,35 @@
+.abo001 {
+  margin: auto;
+  border-bottom: $border-light-grey;
+  padding: 0;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $break-mobile) {
+      flex-direction: row;
+    }
+
+    padding: 0;
+
+    p {
+      margin: 0;
+    }
+
+    &-col {
+      text-align: center;
+      padding: 0 20px;
+      margin-bottom: 20px;
+
+      @media screen and (min-width: $break-mobile) {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+
+  &__exc-h1 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,20 @@
+.cpt016 {
+  width: 100%;
+  border: 10px solid rgba($green-blue, 0.2);
+  padding: 30px 0 10px;
+  margin-bottom: 20px;
+
+  &__title {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  &__list {
+    font-family: 'Karmilla';
+    font-size: 24px;
+    line-height: 36px;
+    color: $black;
+    letter-spacing: -0.025em;
+    padding: 0 15px 0 30px;
+  }
+}

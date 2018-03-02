@@ -1,0 +1,21 @@
+.cpt003 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+  .cpt003__link {
+    color: $grey;
+    min-width: 210px;
+    border: $border-light-grey;
+    padding: 15px 50px;
+    text-decoration: none !important;
+    cursor: pointer;
+
+    &:hover {
+      color: $black;
+      border: $border-black;
+    }
+  }
+}

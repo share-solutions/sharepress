@@ -1,0 +1,50 @@
+.cpt009 {
+  display: inline-block;
+  color: $grey;
+
+  a {
+    color: $grey;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: $vertical-margin;
+
+    &:hover {
+      color: $black;
+    }
+  }
+
+  &.cpt009--pointed-link {
+    &:before {
+      content: '>';
+      display: inline-block;
+      margin-right: 12px;
+    }
+  }
+
+  span {
+    display: block;
+    margin-right: 12px;
+  }
+
+  &-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &--black {
+    color: $black;
+
+    a {
+      color: $black;
+      margin-bottom: 25px;
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}

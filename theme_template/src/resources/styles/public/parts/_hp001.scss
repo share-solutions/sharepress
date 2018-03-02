@@ -1,0 +1,24 @@
+.hp001 {
+  padding-bottom: $vertical-margin-mobile;
+
+  @media screen and (min-width: $break-mobile) {
+    padding-bottom: 20px; //$vertical-margin;
+  }
+
+  .hp001-articles {
+    @media screen and (min-width: $break-ipad) {
+    }
+
+    .hp001-articles__header {
+      text-align: center;
+
+      @media screen and (min-width: $break-ipad) {
+        text-align: right;
+      }
+    }
+  }
+
+  .hp001-articles__box {
+    margin: 18px 0 18px 20px;
+  }
+}
