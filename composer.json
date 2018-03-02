@@ -1,37 +1,11 @@
 {
-    "name": "share/sharepress",
-    "description": "Share's WordPress Framework",
-    "type": "framework",
-    "license": "ISC",
-    "authors": [
-        {
-            "name": "Pedro Gaspar",
-            "email": "pedro.gaspar@codistage.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "share\\": "src/",
+            "app\\": "wp-content/themes/saber_viver/src/app/",
+            "database\\": "wp-content/themes/saber_viver/src/database/"
         },
         "files": [
-            "src/helpers.php",
+            "wp-content/themes/saber_viver/src/app/helpers.php"
         ]
-    },
-    "require": {
-        "illuminate/container": "5.2.0",
-        "illuminate/contracts": "5.2.0",
-        "illuminate/database": "5.2.0",
-        "illuminate/events": "5.2.0",
-        "illuminate/filesystem": "5.2.0",
-        "illuminate/support": "5.2.0",
-        "illuminate/view": "5.2.0",
-        "philo/laravel-blade": "3.*",
-        "nesbot/carbon": "^1.22",
-        "symfony/dom-crawler": "^4.0",
-        "symfony/css-selector": "^4.0",
-        "vlucas/phpdotenv": "^2.4",
-        "league/flysystem": "^1.0",
-        "symfony/console": "^4.0",
-        "symfony/filesystem": "^4.0"
     }
 }

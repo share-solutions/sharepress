@@ -39,7 +39,7 @@ class FirstInstall extends Command
 			new InstallWordpress($input, $output, $this),
 			new DeleteWordpressThemes($input, $output, $this),
 			new CopyTheme($input, $output, $this),
-			// create .env file, copy new wp-config, create uploads/view_cache directory
+			// create .env file, copy new wp-config, create uploads/view_cache directory, run npm install no theme
 		];
 
 		$this->runPipeline($pipeline, 0);
