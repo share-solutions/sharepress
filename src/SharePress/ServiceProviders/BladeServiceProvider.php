@@ -28,6 +28,10 @@ class BladeServiceProvider implements IServiceProvider
 			$blade = new PhiloBlade($views, $cache);
 			$blade->view()->addNamespace('sharepress', App::getFrameworkDirectory('/_resources/views'));
 
+			// inject view binding into container to allow stuff like using the Illuminate View Facade
+			Container::singleton('view', function() use ($blade) {
+				return $blade->view();
+			});
 			Container::singleton('blade', function () use ($blade) {
 				return $blade;
 			});
