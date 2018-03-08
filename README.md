@@ -1,4 +1,8 @@
-TODO:
+WordPress MVC Framework (Incredibly Laravel Inspired)
+
+
+
+TODO's:
 * [ ] Script para composer post-install
     * [ ] Criar directoria views_cache na directoria uploads
     * [ ] Copiar package.json
