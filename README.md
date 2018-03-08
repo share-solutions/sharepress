@@ -1,5 +1,7 @@
-WordPress MVC Framework (Incredibly Laravel Inspired)
+## WordPress MVC Framework
+Incredibly Inspired on Laravel (and uses many of it's packages) 
 
+---
 
 
 TODO's:
